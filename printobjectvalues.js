@@ -4,8 +4,9 @@ function printObjectValues(obj) {
     for (const key in obj) {
         if (obj.hasOwnProperty(key)) { //meaning obj has its own property key
             console.log(obj[key]);  //obj[key] is the syntax used to access the value of the property named key on the object obj
-            
+           
         }
+        console.log(`${key}`);  // It will print both keys of the object
         console.log(`${key}: ${obj[key]}`); // It will print both keys and values of thw object
     }
 }
