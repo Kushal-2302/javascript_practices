@@ -1,3 +1,6 @@
+// function to return sum of all the Integer values of given object, eg: student marks an object, check if it's a number before add
+
+
 function sumObjectValues(obj) {
     let sum = 0;
     for (const key in obj) {
