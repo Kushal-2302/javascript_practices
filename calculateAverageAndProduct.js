@@ -4,7 +4,7 @@ function calculateAverageAndProduct(num1, num2) {
     const avg = (num1 + num2) / 2;
     const prod = num1 * num2;
     return {                
-        average: avg,
+        average: avg,        // average and product is returning as object
         product: prod
     };
 }
