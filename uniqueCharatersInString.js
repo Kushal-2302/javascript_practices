@@ -13,6 +13,6 @@ function uniqueCharacters(str) {
 
     return result;
 }
-const string = "hello world";
+const string = "hello world"; // Assigning string value as "hello world"
 const result = uniqueCharacters(string);
 console.log(result); // "helo wrd"
